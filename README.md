@@ -52,7 +52,7 @@ Palabras clave: Bioestadísticos; Modelo matemático; Regresión no lineal; Simu
 		iv.ode4:Runge-Kutta
 		v.ode5:Dormand-Prince
 7. Aplicar las funciones ode78 y ode89 para resolver el sistema de Lotka-Volterra.
-8. Diseñar un diagrama biológico sobre la dinámica del sistema y la interacción entre sus variables con los diagramas de https://bioart.niaid.nih.gov/ o https://www.biorender.com/.
+8. Diseñar un diagrama biológico sobre la dinámica del sistema y la interacción entre sus variables con las figuras de https://bioart.niaid.nih.gov/ o https://www.biorender.com/.
 
 ## Lista de archivos incluidos en el repositorio
 1. Cuaderno computacional de MATLAB [.mlx].
