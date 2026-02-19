@@ -23,10 +23,10 @@ En el contexto de sistemas dinámicos que describen sistemas biológicos o fisio
 ## Objetivo
 Aplicar el sistema de Lotka-Volterra para analizar los datos registrados en la interacción de dos especies articas, liebres (presa) y linces (depredador) durante 20 años. El sistema presa-depredador se formula mediante las siguientes dos EDOs de primer orden:
 
-	dx/dt = alpha*x - beta*x*y,
-	dy/dt = delta*x*y - gamma*y,
+	dx/dt = alpha*x - beta*x*y, (1)
+	dy/dt = delta*x*y - gamma*y, (2)
 
-donde los valores de los parámetros alpha, beta, delta, gamma > 0, y las condiciones iniciales x(0), y(0) > 0.
+donde los valores de los parámetros alpha, beta, delta, gamma > 0, y las condiciones iniciales x(0), y(0) > 0. La descripción de las ecuaciones del sistema de Lotka-Volterra (1)-(2) se realiza a continuación. La Ecuación (1) modeliza la dinámica de la población presa en la cual el término +alpha*x define el crecimiento de esta población de manera exponencial y el término -beta*x*y describe la tasa de depredación como una proporción entre los encuentros de la población presa y los depredadores. La Ecuación (2) modeliza la evolución de los depredadores, el término +delta*x*y implica que el crecimiento de la población depredadora depende del encuentro con las presas, sin embargo, la tasa de crecimiento no necesariamente es igual a la tasa en que consumen a las presas, por eso se emplean parámetros distintos, el término - gamma*y  representa la muerte natural o emigración de los depredadores como un decrecimiento exponencial en la ausencia de presas.
 
 ## Actividades a realizar  
 
