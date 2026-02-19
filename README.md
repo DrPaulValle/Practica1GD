@@ -20,13 +20,16 @@ La asignatura de Gemelos Digitales forma parte del plan de estudios de la carrer
 
 En el contexto de sistemas dinámicos que describen sistemas biológicos o fisiológicos, el modelizado in silico es una extensión lógica de la experimentación in vitro controlada, es el resultado natural del gran aumento de la potencia computacional disponible a un costo que disminuye continuamente, combinando las ventajas de la experimentación in vivo e in vitro, sin someterse a las consideraciones éticas y la falta de control asociadas con los experimentos in vivo. A diferencia de los experimentos in vitro, que existen de forma aislada, los modelos in silico permiten incluir un conjunto prácticamente ilimitado de variables y parámetros, lo que hace que los resultados sean más aplicables en problemas del mundo real. La experimentación in silico ha dado lugar al paradigma denominado como "gemelos digitales" (en inglés digital twins); en esencia, los gemelos digitales son una réplica o representación digital de un proceso o sistema del mundo real, donde por replica se refiere a un modelo computacional desarrollado con base en datos experimentales y características especiales que le permiten conectar lo físico con lo virtual con el propósito de mejorar el rendimiento de un sistema, detectar y prevenir fallas, y realizar predicciones sobre su respuesta ante diferentes estímulos o escenarios de operación; una definición más formal establece que: un gemelo digital es un conjunto de modelos adaptativos que emulan el comportamiento de un sistema físico en un sistema virtual obteniendo datos en tiempo real para actualizarse a lo largo de su ciclo de vida; replica al sistema físico para predecir fallas y oportunidades de cambio, prescribir acciones en tiempo real para optimizar y/o mitigar eventos inesperados observando y evaluando el perfil operativo del sistema. En el campo particular de la Biología de Sistemas, un gemelo digital se presenta como un algoritmo o conjunto de algoritmos computacionales desarrollados con base en modelos mecanicistas de un organismo vivo, esto con el objetivo de emular su fisiología para ilustrar su dinámica en el corto y en el largo plazo, así como predecir su respuesta a diferentes estímulos endógenos y exógenos.
 
-## Objetivo
+## Objetivo y descripción del sistema
+
 Aplicar el sistema de Lotka-Volterra para analizar los datos registrados en la interacción de dos especies articas, liebres (presa) y linces (depredador) durante 20 años. El sistema presa-depredador se formula mediante las siguientes dos EDOs de primer orden:
 
 	dx/dt = alpha*x - beta*x*y, (1)
 	dy/dt = delta*x*y - gamma*y, (2)
 
 donde los valores de los parámetros alpha, beta, delta, gamma > 0, y las condiciones iniciales x(0), y(0) > 0. La descripción de las ecuaciones del sistema de Lotka-Volterra (1)-(2) se realiza a continuación. La Ecuación (1) modeliza la dinámica de la población presa en la cual el término +alpha*x define el crecimiento de esta población de manera exponencial y el término -beta*x*y describe la tasa de depredación como una proporción entre los encuentros de la población presa y los depredadores. La Ecuación (2) modeliza la evolución de los depredadores, el término +delta*x*y implica que el crecimiento de la población depredadora depende del encuentro con las presas, sin embargo, la tasa de crecimiento no necesariamente es igual a la tasa en que consumen a las presas, por eso se emplean parámetros distintos, el término - gamma*y  representa la muerte natural o emigración de los depredadores como un decrecimiento exponencial en la ausencia de presas.
+
+Palabras clave: Bioestadísticos; Modelo matemático; Regresión no lineal; Simulaciones numéricas; Sistemas dinámicos no lineales.
 
 ## Actividades a realizar  
 
@@ -54,12 +57,6 @@ donde los valores de los parámetros alpha, beta, delta, gamma > 0, y las condic
 7. Aplicar las funciones ode78 y ode89 para resolver el sistema de Lotka-Volterra.
 8. Diseñar un diagrama biológico sobre la dinámica del sistema y la interacción entre sus variables con los diagramas de https://bioart.niaid.nih.gov/ o https://www.biorender.com/.
 
-## Descripción detallada del sistema
-
----BUSCAR UNA DEFINICIÓN DEL SISTEMA DE LOTKA-VOLTERRA---
-
-Palabras clave: Bioestadísticos; Modelo matemático; Regresión no lineal; Simulaciones numéricas; Sistemas dinámicos no lineales.
-
 ## Lista de archivos incluidos en el repositorio
 1. Cuaderno computacional de MATLAB [.mlx].
 2. Modelo de Simulink [.slx].
@@ -70,5 +67,3 @@ Palabras clave: Bioestadísticos; Modelo matemático; Regresión no lineal; Simu
 \[1] P. A. Valle, Syllabus para Gemelos Digitales, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
 
 \[2] Garfinkel, Alan, Jane Shevtsov, and Yina Guo. Modeling life: the mathematics of biological systems. Springer International Publishing AG, 2017
-
-\[3] Pendiente...
