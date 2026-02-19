@@ -64,4 +64,4 @@ Palabras clave: Bioestadísticos; Modelo matemático; Regresión no lineal; Simu
 ## Referencias
 \[1] P. A. Valle, Syllabus para Gemelos Digitales, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
 
-\[2] Garfinkel, Alan, Jane Shevtsov, and Yina Guo. Modeling life: the mathematics of biological systems. Springer International Publishing AG, 2017
+\[2] Garfinkel, Alan, Jane Shevtsov, and Yina Guo. Modeling life: the mathematics of biological systems. Springer International Publishing AG, 2017. doi: https://doi.org/10.1007/978-3-319-59731-7. Permalink: https://sysbio.mx/wp-content/uploads/2021/02/2017_Book_ModelingLife.pdf
